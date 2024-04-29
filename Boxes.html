@@ -27,31 +27,46 @@
     <!-- this begins the header code -->
 
     <header>
-        <nav class="navbar navbar-dark fixed-top bg-dark navbar-expand-lg ">
+        <nav class="navbar navbar-dark fixed-top bg-dark navbar-expand-lg pt-5 ">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="index.html">
                     <img src="images/Merch/Logo_Fin.png" href="index.html" alt="Logo" width="60" height="60"
                         class="d-inline-block align-text-center">
                 </a>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav .justify-content-center">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="Boxes.html">Subscription Boxes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Restaurant.html">Restaurant</a>
-                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="Boxes.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Subscription Boxes
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="Boxes.html#">Boxes</a></li>
+                              <li><a class="dropdown-item" href="Boxes.html#bx1">Subscribe</a></li>
+                              <li><a class="dropdown-item" href="Boxes.html#bx2">Collection</a></li>
+
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="Boxes.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Restaurant
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="Restaurant.html">Restaurant</a></li>
+                              <li><a class="dropdown-item" href="Restaurant.html#r1">Opening Times</a></li>
+                              <li><a class="dropdown-item" href="Restaurant.html#r2">Menu</a></li>
+
+                            </ul>
+                          </li>
                         <li class="nav-item">
                             <a class="nav-link" href="Learn.html">Learn</a>
                         </li>
-
                         <form class="d-flex">
                             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                             <button class="btn btn-outline-success" type="submit">Search</button>
@@ -144,7 +159,7 @@
                             <img src="images/WebsiteImgs/FoodpackageImg.png" class="img-fluid rounded" alt="...">
                         </a>
                         <h4>Optional Volenteer Work</h4>
-                        <p>If you don't feel comfortable receiving our food box as a donation, we offer volenteer work
+                        <p id="bx1">If you don't feel comfortable receiving our food box as a donation, we offer volenteer work
                             as an alternative payment method. In exchange for our
                             subscription box, we take volenteers in our kitchen, working the floor, and in our
                             warehouse. Volenteers will be working alongside our employees.
@@ -153,9 +168,9 @@
                 </div>
             
                 <figure>
-                <form>
-                    <div class="container-fluid text-center mb-3 ">
-                        <h1>Sign Up Today</h1>
+                <form  >
+                    <div class="container-fluid text-center mb-3 pb-5">
+                        <h1 >Sign Up Today</h1>
                         <h4>Our subscription boxes are limited and function on a first come, first serve basis. </h4>
                         <div class="mb-3">
                             <label for="exampleInputPassword1" class="form-label">First Name</label>
@@ -249,7 +264,7 @@
                     </p>
                 </div>
 
-                <div class="contianer-fluid py-5">
+                <div class="contianer-fluid py-5" id="bx2">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d522.7035436819247!2d-2.608037445139202!3d51.45060829096912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1713034456521!5m2!1sen!2suk"
                         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
@@ -316,6 +331,7 @@
 
 
 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
 
 </body>
