@@ -5,7 +5,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-image: linear-gradient(#900C3F, black);
+    background-image: linear-gradient(#ff8800, rgb(238, 6, 6));
     height: 80px;
     padding: 60px 0px;
 }
