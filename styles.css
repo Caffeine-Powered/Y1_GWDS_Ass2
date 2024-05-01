@@ -9,3 +9,15 @@ footer {
     height: 80px;
     padding: 60px 0px;
 }
+
+h1 {
+    font-size: 40px;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  p {
+    font-size: 14px;
+  }
