@@ -8,7 +8,7 @@
 body {
     height: 100vh;
     min-height: 100%;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(54, 54, 54);
 }
 
 footer {
@@ -62,4 +62,9 @@ background: repeating-linear-gradient(
   #013101 20px
 );
 padding-top: 30px;
+}
+
+.mapcont{
+    display: flex;
+    justify-content: center;
 }
