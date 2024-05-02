@@ -1,70 +1,66 @@
-.navbar{
-    background-color: rgb(184, 92, 17);
+.navbar {
+  background-color: rgb(184, 92, 17);
 
 }
 
 
 
 body {
-    height: 100vh;
-    min-height: 100%;
-    background-color: rgb(54, 54, 54);
+  height: 100vh;
+  min-height: 100%;
+  background-color: rgb(54, 54, 54);
 }
 
 footer {
-    display: flex;
-    flex-direction:column;
-    margin-top: 100px;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(184, 92, 17);
-    height: 80px;
-    padding: 60px 0px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(184, 92, 17);
+  height: 80px;
+  padding: 60px 0px;
 }
 
 h1 {
-    font-size: 40px;
-    font-family: canvas-inline, sans-serif;
-    font-style: normal;
-  }
-  
-  h2 {
-    font-size: 30px;
-    font-family: canvas-inline, sans-serif;
-    font-style: normal;
-  }
-
-  h4 {
-    font-size: 25px;
-    font-family: canvas-inline, sans-serif;
-    font-style: normal;
-  }
-  
-p{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
+  font-size: 40px;
+  font-family: canvas-inline, sans-serif;
+  font-style: normal;
 }
 
-.menucontainer{
-    border: 5px solid #ffffff;
-    border-radius: 20px;
+h2 {
+  font-size: 30px;
+  font-family: canvas-inline, sans-serif;
+  font-style: normal;
 }
 
-.banner{
-
-
-background: repeating-linear-gradient(
-    45deg,
-    #004e0b,
-  #004e0b 10px,
-  #013101 10px,
-  #013101 20px
-);
-padding-top: 30px;
+h4 {
+  font-size: 25px;
+  font-family: canvas-inline, sans-serif;
+  font-style: normal;
 }
 
-.mapcont{
-    display: flex;
-    justify-content: center;
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+}
+
+.menucontainer {
+  border: 5px solid #ffffff;
+  border-radius: 20px;
+}
+
+.banner {
+  background: repeating-linear-gradient(45deg,
+      #004e0b,
+      #004e0b 10px,
+      #013101 10px,
+      #013101 20px);
+  padding-top: 30px;
+}
+
+.mapcont {
+  display: flex;
+  justify-content: center;
 }
