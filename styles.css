@@ -1,6 +1,6 @@
 .navbar{
-    background-image: linear-gradient(#ff8800, rgb(156, 0, 0));
-      color:#ffffff;
+    background-color: rgb(184, 92, 17);
+
 }
 
 
@@ -8,6 +8,7 @@
 body {
     height: 100vh;
     min-height: 100%;
+    background-color: rgb(20, 20, 20);
 }
 
 footer {
@@ -17,7 +18,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-image: linear-gradient(#ff8800, rgb(156, 0, 0));
+    background-color: rgb(184, 92, 17);
     height: 80px;
     padding: 60px 0px;
 }
@@ -35,7 +36,7 @@ h1 {
   }
 
   h4 {
-    font-size: 30px;
+    font-size: 25px;
     font-family: canvas-inline, sans-serif;
     font-style: normal;
   }
@@ -51,11 +52,13 @@ p{
 }
 
 .banner{
-    background: repeating-linear-gradient(
-  45deg,
-  #606dbc,
-  #606dbc 10px,
-  #465298 10px,
-  #465298 20px
+
+
+background: repeating-linear-gradient(
+    45deg,
+    #004e0b,
+  #004e0b 10px,
+  #013101 10px,
+  #013101 20px
 );
 }
